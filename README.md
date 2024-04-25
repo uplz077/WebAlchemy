@@ -1,2 +1,2 @@
-# WebAlchemy
-个人3D主页
+# threejs_web_portfolio
+Personal 3D homepage
