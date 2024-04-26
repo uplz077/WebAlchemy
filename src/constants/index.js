@@ -28,15 +28,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "关于我",
   },
   {
     id: "work",
-    title: "Work",
+    title: "工作经验",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "联系方式",
   },
 ];
 
