@@ -1,4 +1,4 @@
-@import url("./assets/poppins-fonts/fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -65,6 +65,134 @@
   -webkit-text-fill-color: transparent;
 }
 
+.new-color-text-gradient {
+  background: #3498db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #3498db,
+    #e74c3c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3498db,
+    #e74c3c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new-color2-text-gradient {
+  background: #4a148c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #4a148c,
+    #00c853
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #4a148c,
+    #00c853
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new-color3-text-gradient {
+  background: #ff8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ff8c00,
+    #ff2d20
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ff8c00,
+    #ff2d20
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new-color4-text-gradient {
+  background: #f39c12; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f39c12,
+    #e74c3c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f39c12,
+    #e74c3c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient2 {
+  background: #3498db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #3498db,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3498db,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new-color5-text-gradient {
+  background: #00b894; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #00b894,
+    #00cec9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #00b894,
+    #00cec9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-blue-text-gradient {
+  background: #e74c3c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #e74c3c,
+    #3498db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #e74c3c,
+    #3498db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-text-gradient2 {
+  background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #800080,
+    #a300a3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #800080,
+    #a300a3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -80,6 +208,23 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.yellow-text-gradient2 {
+  background: #f1c40f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f1c40f,
+    #f39c12
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f1c40f,
+    #f39c12
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
@@ -113,6 +258,319 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+
+
+
+
+/* Define classes for gradient background tags */
+.tag-blue-gradient {
+  background: linear-gradient(to right, blue, cyan); /* Adjust gradient colors as needed */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px; /* Adjust padding as needed */
+}
+
+.tag-green-gradient {
+  background: linear-gradient(to right, green, yellow); /* Adjust gradient colors as needed */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px; /* Adjust padding as needed */
+}
+
+.tag-pink-gradient {
+  background: linear-gradient(to right, pink, purple); /* Adjust gradient colors as needed */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px; /* Adjust padding as needed */
+}
+
+.tag-purple-gradient {
+  background: linear-gradient(to right, #9c27b0, #673ab7); /* Purple gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-orange-gradient {
+  background: linear-gradient(to right, #ff9800, #ff5722); /* Orange gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-red-gradient {
+  background: linear-gradient(to right, #ff0000, #ff5500); /* Red gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-yellow-gradient {
+  background: linear-gradient(to right, #ffea00, #ffc700); /* Yellow gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-green-blue-gradient {
+  background: linear-gradient(to right, #00bfa5, #00b8d4); /* Green to Blue gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-purple-pink-gradient {
+  background: linear-gradient(to right, #9c27b0, #e91e63); /* Purple to Pink gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* NLP */
+.tag-cyan-teal-gradient {
+  background: linear-gradient(to right, #00bcd4, #009688); /* Cyan to Teal gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-gold-orange-gradient {
+  background: linear-gradient(to right, #ffcc29, #ffac29); /* Gold to Orange gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+
+/* Define classes for gradient background tags with darkness */
+
+/* Flask */
+.tag-red-gradient-dark {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 85, 0, 0.8)); /* Red gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 70px;
+  padding: 2px 10px;
+}
+
+/* JavaScript */
+.tag-yellow-gradient-dark {
+  background: linear-gradient(to right, rgba(255, 234, 0, 0.8), rgba(255, 199, 0, 0.8)); /* Yellow gradient with darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-green-blue-gradient-dark {
+  background: linear-gradient(to right, rgba(0, 191, 165, 0.8), rgba(0, 184, 212, 0.8)); /* Green to Blue gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-purple-pink-gradient-dark {
+  background: linear-gradient(to right, rgba(156, 39, 176, 0.8), rgba(233, 30, 99, 0.8)); /* Purple to Pink gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* BeautifulSoup4 */ 
+.tag-cyan-teal-gradient-dark {
+  background: linear-gradient(to right, rgba(0, 188, 212, 0.8), rgba(0, 150, 136, 0.8)); /* Cyan to Teal gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-gold-orange-gradient-dark {
+  background: linear-gradient(to right, rgba(255, 204, 41, 0.8), rgba(255, 172, 41, 0.8)); /* Gold to Orange gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-red-purple-gradient-dark {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(156, 39, 176, 0.8)); /* Red to Purple gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Tailwind CSS */
+.tag-blue-cyan-gradient-dark {
+  background: linear-gradient(to right, rgba(33, 150, 243, 0.8), rgba(0, 188, 212, 0.8)); /* Blue to Cyan gradient with darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-orange-pink-gradient-dark {
+  background: linear-gradient(to right, rgba(255, 87, 34, 0.8), rgba(233, 30, 99, 0.8)); /* Orange to Pink gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-green-lime-gradient-dark {
+  background: linear-gradient(to right, rgba(76, 175, 80, 0.8), rgba(205, 220, 57, 0.8)); /* Green to Lime gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* ReactJS */
+.tag-indigo-blue-gradient-dark {
+  background: linear-gradient(to right, rgba(63, 81, 181, 0.8), rgba(33, 150, 243, 0.8)); /* Indigo to Blue gradient with darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-pink-purple-gradient-dark {
+  background: linear-gradient(to right, rgba(233, 30, 99, 0.8), rgba(156, 39, 176, 0.8)); /* Pink to Purple gradient with darkness */
+  color: rgba(255, 255, 255, 0.83);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Define classes for gradient background tags with darker backgrounds */
+.tag-deep-purple-indigo-gradient-darker {
+  background: linear-gradient(to right, rgba(103, 58, 183, 0.9), rgba(63, 81, 181, 0.9)); /* Deep Purple to Indigo gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Django */
+.tag-red-pink-gradient-darker {
+  background: linear-gradient(to right, rgba(244, 67, 54, 0.9), rgba(233, 30, 99, 0.9)); /* Red to Pink gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Android */ 
+.tag-green-lime-gradient-darker {
+  background: linear-gradient(to right, rgba(76, 175, 80, 0.9), rgba(139, 195, 74, 0.9)); /* Green to Lime gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-orange-deep-orange-gradient-darker {
+  background: linear-gradient(to right, rgba(255, 87, 34, 0.9), rgba(255, 152, 0, 0.9)); /* Orange to Deep Orange gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Dart */
+.tag-blue-cyan-gradient-darker {
+  background: linear-gradient(to right, rgba(33, 150, 243, 0.9), rgba(0, 188, 212, 0.9)); /* Blue to Cyan gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Flutter */
+.tag-indigo-blue-grey-gradient-darker {
+  background: linear-gradient(to right, rgba(63, 81, 181, 0.9), rgba(96, 125, 139, 0.9)); /* Indigo to Blue Grey gradient with darker background */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+
+/* Define classes for gradient background tags with darkness */
+.tag-teal-purple-gradient-darker {
+  background: linear-gradient(to right, rgba(0, 150, 136, 0.9), rgba(156, 39, 176, 0.9)); /* Teal to Purple gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Tableau */
+.tag-amber-red-gradient-darker {
+  background: linear-gradient(to right, rgba(255, 193, 7, 0.9), rgba(244, 67, 54, 0.9)); /* Amber to Red gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Power BI */
+.tag-light-blue-indigo-gradient-darker {
+  background: linear-gradient(to right, rgba(3, 169, 244, 0.9), rgba(63, 81, 181, 0.9)); /* Light Blue to Indigo gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* PaLM2 */
+.tag-deep-orange-brown-gradient-darker {
+  background: linear-gradient(to right, rgba(255, 87, 34, 0.9), rgba(121, 85, 72, 0.9)); /* Deep Orange to Brown gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-cyan-green-gradient-darker {
+  background: linear-gradient(to right, rgba(0, 188, 212, 0.9), rgba(76, 175, 80, 0.9)); /* Cyan to Green gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-yellow-blue-gradient-darker {
+  background: linear-gradient(to right, rgba(255, 255, 0, 0.9), rgba(33, 150, 243, 0.9)); /* Yellow to Blue gradient with more darkness */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Python color */
+.tag-blue-yellow-gradient-darker {
+  background: linear-gradient(to right, rgba(0, 0, 139, 0.9), rgba(255, 215, 0, 0.9)); /* Dark Blue to Yellow gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* fastapi*/
+.tag-green-white-gradient-darker {
+  background: linear-gradient(to right, rgba(0, 128, 0, 0.9), rgba(255, 255, 255, 0.9)); /* Dark Green to White gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Scit-Learn */
+.tag-blue-orange-gradient-darker {
+  background: linear-gradient(to right, rgba(0, 0, 128, 0.9), rgba(255, 165, 0, 0.9)); /* Dark Blue to Orange gradient */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+.tag-blue-orange-darker {
+  background-color: #002c5e; /* Dark Blue */
+  color: #ff8000; /* Orange */
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+/* Verte Ai */
+.tag-radial-gradient {
+  background: radial-gradient(circle, #ff6b6b, #6b47ff); /* Radial gradient from red to purple */
+  color: white;
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+
+
+
 
 /* canvas- styles */
 .canvas-loader {
