@@ -1,20 +1,15 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import {
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
   Navbar,
-  Tech,
+  Hero,
+  About,
+  Experience,
+  TechStack,
   Works,
-  StarsCanvas,
+  Feedbacks,
+  Contact,
 } from "./components";
-import ExperienceTitle from "./components/ExperienceTitle"; // Importa el componente de título
-import WorksTitle from "./components/WorksTitle"; // Importa el componente de título
-import WorksAI from "./components/WorksAI";
-import About from "./components/About";
 
 const App = () => {
   return (
@@ -26,22 +21,17 @@ const App = () => {
         </div>
         <Routes>
           <Route path="/about" exact element={<About />} />
-          <Route path="/experience" component={<ExperienceTitle />} />
-          <Route path="/works" component={Works} />
+          <Route path="/experience" component={<Experience />} />
+          <Route path="/works" component={<Works />} />
           <Route path="/contact" exact element={<Contact />} />
         </Routes>
+
         <About />
-        <ExperienceTitle />
         <Experience />
-        <Tech />
-        <WorksTitle />
+        <TechStack />
         <Works />
-        <WorksAI />
         <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+        <Contact />
       </div>
     </Router>
   );
