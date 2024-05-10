@@ -1,143 +1,74 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+// logo
+import logo from "./logo.svg";
 import github from "./github.png";
+
+// nav部分
+import linkedin from "./linkedin.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import linkedin from "./linkedin.svg";
 
-// Import about icons
-import dataanalyst from "./about/dataanalyst.png";
-import ai from "./about/ai.png";
-import cryptocurrency from "./about/cryptocurrency.png";
-import entrepreneur from "./about/entrepreneur.png";
-import programmer from "./about/programmer.png";
-import productive from "./about/productive.png";
-import learning from "./about/learning.png";
-import pythondeveloper from "./about/pythondeveloper.png";
-import machinelearningengineer from "./about/machinelearningengineer.png";
-import webapp from "./about/mobile-app.png";
+// 服务
+import webService from "./about/mobile-app.png";
+import nodeService from "./about/machinelearningengineer.png";
+import fullService from "./about/programmer.png";
+import aiService from "./about/ai.png";
 
-// Import tech
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+// 公司
+import metaCmp from "./company/meta.png";
+import starbucksCmp from "./company/starbucks.png";
+import teslaCmp from "./company/tesla.png";
+
+// 技术栈
+import tsTech from "./tech/typescript.png";
+import dartTech from "./tech/dart.png";
+import cssTech from "./tech/css.png";
+import reactTech from "./tech/reactjs.png";
+import vueTech from "./tech/vuejs.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import python from "./tech/python.png";
-import dart from "./tech/dart.png";
-import fastapi from "./tech/fastapi.png";
-import tensorflow from "./tech/tensorflow.png";
-import sql from "./tech/sql.png";
-import aws from "./tech/aws.png";
 import flutter from "./tech/flutter.png";
-import vuejs from "./tech/vuejs.png";
+import mongodb from "./tech/mongodb.png";
+import docker from "./tech/docker.png";
+import nodejs from "./tech/nodejs.png";
+import threejs from "./tech/threejs.svg";
 
-//  Import company
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
-import xinerlink from "./company/xinerlink.png";
-import anyoneai from "./company/anyoneai.png";
-import freqtrade from "./company/freqtrade.png";
-import android from "./company/android.png";
-import xiaoan from "./company/xiaoan.jpg";
-import nuoyun from "./company/nuoyun.png";
-import jsuttree from "./company/justtree.png";
+// 项目
+import webCover from "./works/agency.png";
+import mobileCover from "./works/topo.png";
 
-// Import projects/works
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import creditguard from "./works/creditguard.jpeg";
-import agency from "./works/agency.png";
-import moviesreview from "./works/moviesreview.jpg";
-import vehicleclassification from "./works/vehicleclassification.png";
-import cryptochallenge from "./works/cryptochallenge.png";
-import vertexai from "./works/vertexai.png";
-import imageclassification from "./works/imageclassification.png";
-import homecreditrisk from "./works/homecreditrisk.png";
-import gentetoxica from "./works/gentetoxica.png";
-import fumanyi from "./works/fumanyi.png";
-import topo from "./works/topo.png";
-import freqtradeworks from "./works/freqtradeworks.jpg";
-import cryptowebapp from "./works/cryptowebapp.png";
+// 用户头像
+import avatar1 from "./avatar/avatar-df1.png";
+import avatar2 from "./avatar/avatar-df2.png";
+import avatar3 from "./avatar/avatar-df3.png";
+import avatar4 from "./avatar/avatar-df4.png";
 
 export {
-  aws,
-  sql,
-  tensorflow,
-  fastapi,
-  cryptowebapp,
-  freqtradeworks,
-  linkedin,
-  fumanyi,
-  gentetoxica,
-  agency,
-  homecreditrisk,
-  creditguard,
-  moviesreview,
-  vehicleclassification,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  dataanalyst,
-  programmer,
-  productive,
-  ai,
-  cryptocurrency,
-  entrepreneur,
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
+  linkedin,
+  webService,
+  nodeService,
+  fullService,
+  aiService,
+  metaCmp,
+  starbucksCmp,
+  teslaCmp,
+  tsTech,
+  dartTech,
+  cssTech,
+  reactTech,
+  vueTech,
   tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  freqtrade,
-  xinerlink,
-  tesla,
-  anyoneai,
-  carrent,
-  jobit,
-  tripguide,
-  python,
-  dart,
-  android,
-  learning,
-  pythondeveloper,
-  machinelearningengineer,
-  cryptochallenge,
-  vertexai,
-  imageclassification,
-  topo,
-  webapp,
-  xiaoan,
-  nuoyun,
-  jsuttree,
   flutter,
-  vuejs,
+  mongodb,
+  docker,
+  nodejs,
+  threejs,
+  webCover,
+  mobileCover,
+  avatar1,
+  avatar2,
+  avatar3,
+  avatar4,
 };

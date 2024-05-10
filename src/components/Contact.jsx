@@ -40,7 +40,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Jared",
           from_email: form.email,
-          to_email: "tuteapps@gmail.com",
+          to_email: "xylz92131@outlook.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -48,7 +48,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("谢谢你。我会尽快回复你的。(≧∇≦)/");
 
           setForm({
             name: "",
@@ -60,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("(T_T)，出现了一点小问题。请再试一次吧。");
         }
       );
   };
@@ -69,7 +69,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className={` xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden flex-wrap`}
+        className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden flex-wrap`}
       >
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
@@ -84,13 +84,13 @@ const Contact = () => {
             className="mt-12 flex flex-col gap-8"
           >
             <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">称呼</span>
+              <span className="text-white font-medium mb-4">联系人</span>
               <input
                 type="text"
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="请输入您的称呼"
+                placeholder="怎么称呼您"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>
@@ -101,7 +101,7 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="请输入邮箱地址"
+                placeholder="填写您的邮箱地址"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>
@@ -112,7 +112,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="请输入邮件内容"
+                placeholder="填写邮件内容"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>
@@ -121,7 +121,7 @@ const Contact = () => {
               type="submit"
               className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
             >
-              {loading ? "请稍后..." : "发送"}
+              {loading ? "请稍后..." : "发送邮件"}
             </button>
           </form>
         </motion.div>
@@ -133,7 +133,7 @@ const Contact = () => {
           <EarthCanvas />
         </motion.div>
       </div>
-      <div className="w-full text-center text-white py-6 text-[14px]">
+      <div className="w-full text-center text-white pt-12 text-[14px]">
         ©2024 {profiles.surname}, All rights &nbsp;
         <a
           rel="nofollow noreferrer"
@@ -148,4 +148,6 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+const ContactSection = SectionWrapper(Contact, "contact");
+
+export default ContactSection;
